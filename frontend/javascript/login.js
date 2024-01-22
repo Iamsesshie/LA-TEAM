@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 
                 console.error("Échec de l'authentification");
+                alert("Mauvaise combinaison utilisateur ou mot de passe")
             }
         })
         .catch(error => {
