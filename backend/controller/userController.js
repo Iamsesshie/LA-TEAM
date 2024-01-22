@@ -46,7 +46,7 @@ exports.login = (req, res) => {
         if (error) {
             res.status(500).json({ error: "Internal server error ooooo" });
         } else if (result.length > 0) {
-            bcrypt.compare(req.body.password, result[0].PasswordHash)
+            bcrypt.compare(req.body.PasswordHash, result[0].PasswordHash)
                 .then((valid) => {
                     if (valid) {
                         res.status(200).json({ message: "Login successful", id: result[0].Surname });

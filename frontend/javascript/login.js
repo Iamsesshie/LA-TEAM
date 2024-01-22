@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function () {
              body: JSON.stringify(formData) 
         })
         .then(response => {
-            if (response.headers) {
+            if (response.ok) {
+                console.log(response.formData);
                 console.log("ok");
                 // La requête a réussi
                 // Rediriger l'utilisateur vers l accueil
