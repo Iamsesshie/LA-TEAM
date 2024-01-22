@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body>
+
+
+    
+
+
+    <div class="container">
+        <div class="sidebar">
+        <div class="profile">
+            <img src="avatar.jpg" alt="Avatar">
+            <h2>Username</h2>
+        </div>
+        <h2>Menu</h2>
+        <nav>
+            <ul>
+                <li><a href="../html/contact.html">Discussion</a></li>
+                <li><a href="../html/amis.html">Invitations</a></li>
+                <li><a href="../html/demande.html">Demandes</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="contacts-slider" id="contactsSlider">
+            
+        </div>
+
+        <div class="chat-container" id="chatContainer">
+            <div class="chat-header" id="chatHeader">
+                
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                
+            </div>
+
+
+<div class="chat-input">
+    <textarea id="messageInput" placeholder="Type your message..."></textarea>
+    <button onclick="openFileInput()">
+        <i class="fas fa-file"></i> Choose File
+    </button>
+    <br>
+    <input type="file" id="fileInput" accept="image/*, video/*, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain" style="display: none;">
+    <button onclick="sendMessage()">
+        <i class="fas fa-paper-plane"></i> Send
+    </button>
+</div>
+
+        </div>
+    </div>
+
+    <script src="../javascript/contact.js"></script>
+    <script src="../javascript/chat.js"></script>
+</body>
+</html>

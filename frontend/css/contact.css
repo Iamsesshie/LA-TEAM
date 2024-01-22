@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    /* max-width: 1000px; */
+    /* margin: 20px auto; */
+}
+
+.contacts-slider {
+    width: 20%;
+    overflow-y: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contacts-slider .contact {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.contacts-slider .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contacts-slider .contact-info h2 {
+    margin: 0;
+}
+
+.contacts-slider .contact-info p {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.chat-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #dddfe2;
+    margin-right: 0;
+    
+}
+
+.chat-header {
+    background-color: #ece5dd;
+    color: #1c1e21;
+    padding: 15px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+}
+
+.message {
+    background-color: #DCF8C6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: block;
+    width: fit-content;
+
+    word-wrap: break-word; /* Permet de casser les mots longs à la ligne si nécessaire */
+}
+
+
+
+
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.chat-input button {
+    padding: 10px;
+    background-color: #128C7E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    margin-top: 10px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}

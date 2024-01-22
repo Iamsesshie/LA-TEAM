@@ -1,0 +1,51 @@
+body{
+    background: rgb(39, 190, 147);
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.loader {
+    border: 8px solid #fff;
+    border-radius: 50%;
+    border-top: 8px solid #128C7E;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-top: 30vh;
+    margin-left: 95vh;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+button {
+    margin-left: 10px;
+    margin-top: 10vh;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
+}
+
+.footer{
+text-align: center;
+margin-top: 50px;
+
+}
+.auth{
+    text-align: center;
+}
