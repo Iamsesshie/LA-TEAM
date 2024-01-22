@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 // La requête a réussi
                 // Rediriger l'utilisateur vers l accueil
                 window.location.href = '../html/firstpage.html';
+                let owner= formData.username
+                alert("Bienvenue "+owner)
             } else {
                 
                 console.error("Échec de l'authentification");
