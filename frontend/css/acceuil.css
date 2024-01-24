@@ -2,7 +2,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: rgb(250, 222, 188);
+    background-image: url(../images/Know\ The\ Advantages\ Of\ Getting\ Chinese\ Interpretation\ Services.jpeg );
+    background-repeat: no-repeat;
+    background-position: center ; 
+    
 }
 
 .container {
@@ -12,7 +16,7 @@ body {
 .sidebar {
     width: 250px;
     height: 100vh;
-    background-color: #333;
+    background-color: #771011;
     color: #fff;
     padding-top: 20px;
 }
@@ -52,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #e8b1b1aa;
 }
 
 .content {

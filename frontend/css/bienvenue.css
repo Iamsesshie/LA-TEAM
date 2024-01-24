@@ -1,5 +1,5 @@
 body{
-    background: rgb(39, 190, 147);
+    background: #ECE6D3;
     color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -11,7 +11,8 @@ body{
 }
 
 .logo {
-    max-width: 100px;
+    width: 300px;
+    min-width: 100px;
     margin-bottom: 10px;
     margin-top: 20px;
 }
@@ -19,12 +20,13 @@ body{
 .loader {
     border: 8px solid #fff;
     border-radius: 50%;
-    border-top: 8px solid #128C7E;
+    border-top: 8px solid #771011;
     width: 40px;
     height: 40px;
     animation: spin 1s linear infinite;
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-left: 95vh;
+   
 }
 
 @keyframes spin {
@@ -39,6 +41,9 @@ button {
     width: 20vh;
     height: 5vh;
     border-radius: 10px;
+    background: #771011;
+    color: white;
+    border-style: none;
 }
 
 .footer{

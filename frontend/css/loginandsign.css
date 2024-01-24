@@ -5,7 +5,7 @@
     font-family: 'poppins', sans-serif;
 }
 body{
-    background: #e4e9f7;
+    background: #ECE6D3;
  }
 .container{
     display: flex;
@@ -40,7 +40,7 @@ body{
     width: 48px;
     height: 3px;
     border-radius: 70px;
-    background: rgba(44, 208, 186, 0.808) ;
+    background: #771011 ;
 
 }
 .form-box form .field{
@@ -61,7 +61,7 @@ body{
     width: 100%;
     position: relative;
     height: 35px;
-    background: rgba(25, 181, 145, 0.808);
+    background:#771011;
     border: 0;
     border-radius: 5px;
     color: #fff;
@@ -84,7 +84,7 @@ body{
     
 }
 .links a {
-    color: #128C7E;
+    color: #771011;
 }
 
 /**** Home ******/
