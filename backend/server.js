@@ -45,6 +45,7 @@ app.listen(5000, () => {
 
 const express = require("express");
 const userRoute = require("./routes/userRoute")
+const contactRoute = require("./routes/contactRoute")
 const cors = require("cors")
 
 const app = express()
@@ -56,10 +57,15 @@ app.use(express.json())
 
 
 app.use("/user" , userRoute)
+app.use("/contact", contactRoute)
 
 
 
 app.listen(5000 || process.env.PORT)
+
+
+
+
 
 /* const express = require('express');
 const http = require('http');
