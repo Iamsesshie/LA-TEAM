@@ -1,25 +1,13 @@
-// Modifier cette URL pour pointer vers votre endpoint backend qui renvoie la liste des contacts depuis la base de données
-//const contactsEndpoint = 'http://localhost:5000/contact/contacts';
 
 
-
-
-
-
-
-
-
-// Initialiser la variable contacts
 
 var contacts = [];
 
-// Récupérer la liste des contacts depuis la base de données
+
 fetch("http://localhost:5000/contact/contacts")
     .then(response => response.json())
     .then(data => {
-        contacts = data.contacts; // Assurez-vous que la structure de réponse correspond à vos besoins
-
-        // Continuer avec le reste du code
+        contacts = data.contacts;
         var contactsSlider = document.getElementById('contactsSlider');
         contacts.forEach(function(contact) {
             var contactDiv = document.createElement('div');
@@ -44,7 +32,7 @@ function loadChat(contactName) {
     chatMessages.innerHTML = '';
 
     var contactAvatar = document.createElement('img');
-    contactAvatar.src = '../OIP.jpeg'/* contactName.toLowerCase() + '_avatar.jpg'; */
+    contactAvatar.src = '../OIP.jpeg'
     contactAvatar.alt = contactName + "'s Avatar";
 
     var contactInfo = document.createElement('div');

@@ -10,10 +10,6 @@
 </head>
 <body>
 
-
-    
-
-
     <div class="container">
         <div class="sidebar">
         <div class="profile">
@@ -50,6 +46,7 @@
     </button>
     <br>
     <input type="file" id="fileInput" accept="image/*, video/*, application/pdf, application/msword, application/vnd.ms-excel, application/vnd.ms-powerpoint, text/plain" style="display: none;">
+    
     <button onclick="sendMessage()">
         <i class="fas fa-paper-plane"></i> Send
     </button>
@@ -57,8 +54,9 @@
 
         </div>
     </div>
-
+   
     <script src="../javascript/contact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.min.js"></script>
     <script src="../javascript/chat.js"></script>
 </body>
 </html>
